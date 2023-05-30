@@ -1,0 +1,79 @@
+.form_div{
+    display: flex ;
+    justify-content: center ;
+    
+    
+}
+form {
+    border: 1px solid black;
+    width: 30%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222831;
+}
+.personal_details{
+    color: #fff;
+}
+.firstName_div{
+    margin: 10px 0 10px 0 ;
+    color: #ffe700;
+}
+.lastName_div {
+    margin: 10px 0 10px 0 ;
+    color: #2eb872;
+}
+.email_div {
+    margin: 10px 0 10px 0 ;
+    color: #ff0000;
+}
+.dateOfBirth_div {
+    margin: 10px 0 10px 0 ; 
+    color: #fff;
+}
+#dob{
+    width: 170px;
+}
+.gender_div {
+    margin: 10px 0 10px 0;
+    color: #fff;
+}
+
+.address_div {
+   margin: 10px 0 10px 0;
+   color: #fff;
+}
+
+
+form input {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit {
+    width: 100px;
+    height: 35px;
+    background-color: rgb(15, 228, 26);
+    color:rgb(255, 255, 255);
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif, monospace;
+    text-align: center; 
+    border: 1px solid rgb(0, 184, 40);
+    margin: 10px 0 20px 0;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+.back {
+    width: 100px;
+    height: 35px;
+    background-color: #dc2f2f;
+    color:#fff;
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif, monospace;
+    text-align: center; 
+    border: 1px solid rgb(210, 12, 12);
+    margin: 10px 0 20px 50px;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
